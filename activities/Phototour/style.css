@@ -1,7 +1,53 @@
+/* General page styling */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgba(0, 0, 255, 0.7);
-    background-color: rgb(141, 141, 157);
-    background-image: url(bluebg.jpg);
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
 
+header, nav, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a.current {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Background image and text alignment */
+body {
+    background-image: url('background\ \(1\).webp');
+    background-repeat: repeat-x;
+}
+
+main {
+    padding: 20px;
+}
+
+ul {
+    list-style-image: url('custom-bullet.png');
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+/* Footer styling */
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
 }
