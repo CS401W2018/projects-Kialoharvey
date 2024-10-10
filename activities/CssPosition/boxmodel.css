@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: aqua;
+    width: 300px;
+    margin:50px auto;
+    padding: 50px 30px 100px 3px;
+
+}
+header h1 {
+margin-bottom: 0;
+border-width: 5px;
+border-color: red;
+border-style: solid;
+}
+
+nav {
+    background-color: antiquewhite;
+    height: 200px;
+    margin-top: 40px;
+}
