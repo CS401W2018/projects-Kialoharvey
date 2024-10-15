@@ -94,7 +94,7 @@ footer {
     position: absolute;
     bottom: 0;
     right: 0;
-    margin: 10px; /* Adjust margin to move image away from the edge */
+    margin: 40px; /* Adjust margin to move image away from the edge */
 }
 
 .logo img {
