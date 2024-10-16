@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background-color: aqua;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "inside main rside"
+    "footer footer footer";
+    
+}
+.item{
+    background-color: rgb(76, 119, 158);
+    border: thin solid black;
+}
+.itemA {
+    grid-area: inside;
+}
+.itemB {
+    grid-area: rside;
+}
+.itemC {
+    grid-area: main;
+}
+.itemD {
+    grid-area: header;
+}
+.itemE {
+    grid-area: footer;
+}
+.itemF {
+    grid-area: main;
+}
