@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5px; 
+}
+
+.item {
+    background-color: aqua;
+    padding: 10px 5px;
+    width: 200px;
+}
