@@ -34,20 +34,17 @@ nav ul li {
 nav ul li a:hover {
     background-color: #f58d8d;
 }
-
 .content {
     display: flex;
     padding: 5px;
 }
-
 aside {
     width: 30%;
     background-color: white;
     padding: 5px;
 }
-
 aside h2 {
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 main {
     width: 80%;
@@ -74,8 +71,8 @@ main {
 footer {
     background-color: #4e93a4;
     color: white;
-    padding: 2rem 0;
-    margin-top: 2rem;
+    padding: 10px 0;
+    margin-top: 10px;
 }
 footer ul {
     display: grid;
