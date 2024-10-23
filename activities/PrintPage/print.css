@@ -1,0 +1,51 @@
+/* Print-specific styles */
+@media print {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        background-color: white;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: white;
+        color: black;
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+        padding: 10px 0;
+    }
+
+    header h1 {
+        font-size: 24px;
+        margin: 0;
+    }
+
+    nav {
+        display: none; /* Hide navigation for print */
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .card {
+        border: 1px solid #000;
+        box-shadow: none; /* Remove box shadow for print */
+        page-break-inside: avoid; /* Avoid breaking card content between pages */
+        margin-bottom: 20px;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto; /* Ensure images scale properly */
+    }
+
+    footer {
+        text-align: center;
+        font-size: 12px;
+        border-top: 1px solid #ccc;
+        margin-top: 20px;
+        padding-top: 10px;
+    }
+}
