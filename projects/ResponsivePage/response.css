@@ -47,7 +47,7 @@ nav ul.navbar li a {
 }
 
 .sidebar .family-facts {
-    list-style-type: none;
+    list-style: disc;
     margin-top: 16px;
 }
 
