@@ -78,7 +78,7 @@ footer {
 }
 
 @media print {
-    header, nav, footer {
+     nav {
         display: none;
     }
 }
