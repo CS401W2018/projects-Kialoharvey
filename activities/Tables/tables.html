@@ -3,34 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tables</title>
+    <title>Class Schedule</title>
+    <link rel="stylesheet" href="tables.css">
 </head>
-<h2>Class Schedule</h2>
 <body>
+    <h2>Class Schedule</h2>
     <main>
-        <table border = "1">
-            <tr>
-                <th>Dept.</th><th>Number</th><th>Time</th><th>Location</th><th>Credits</th>
-            </tr>
-            <tr>
-            <td colspan="4"> Information Technology</td>
-            </tr>
-            <tr><td>IT</td><td>248</td><td>11AM</td><td rowspan="4">P3</td><td>3</td>
-            </tr>
-            <tr>
-                <td>IT</td><td>248</td><td>11AM</td><td>P3</td><td>3</td>
-            </tr>
-            <tr>
-                <td colspan="4"> Computer Science</td>
-                </tr>
-                <tr><td>CS</td><td>210</td><td>1:00PM</td><td rowspan="4">P3</td><td>3</td>
-                </tr>
+        <table border="1">
+            <thead>
                 <tr>
-                    <td>CS</td><td>210</td><td>1:00PM</td><td>P3</td><td>3</td>
+                    <th>Department</th><th>Number</th> <th>Time</th> <th>Location</th><th>Credits</th>
                 </tr>
-           
+            </thead>
+            <tbody>      
+                <tr>
+                    <td colspan="5">Information Technology</td>
+                </tr>   
+                <tr>
+                    <td>IT</td><td>248</td><td>11AM</td><td rowspan="2">P3</td> <td>3</td>
+                </tr>   
+                <tr>
+                    <td>IT</td><td>248</td><td>11AM</td> <td>3</td>
+                </tr>      
+                    
+                <tr>
+                    <td colspan="5">Computer Science</td>
+                </tr>  
+                <tr>
+                    <td>CS</td><td>210</td><td>1:00PM</td><td rowspan="2">P3</td> <td>3</td>
+                </tr>   
+                <tr>
+                    <td>CS</td> <td>210</td><td>1:00PM</td><td>3</td>
+                </tr>    
+                    
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Total Credits</th><td colspan="4">12</td> 
+                </tr>
+            </tfoot>
         </table>
+        <h3>Engagement</h3>
+        <p><ol><li>Why don't we use the border property?The border property isn't always necessary if the layout is simple or if other CSS properties separate content.</li>
+        <li>What is the easiest way to color every other row a different color?The easiest way to alternate row colors is with the nth-child CSS selecto</li><li>
+            When should we use a table? Tables are best used for displaying structured data. 
+        </li></ol></p>
     </main>
-    
 </body>
-</html>
+</html>                   
+                 
+                    
+                   
+               
+                    
+                   
+                    
+                
+           
+               
+               
+                
+                
+                
+                
+   

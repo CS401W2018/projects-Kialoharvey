@@ -1,0 +1,29 @@
+/* Style for the table header */
+thead th {
+    background-color: #4CAF50; /* Choose a color for the header */
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Style for the table footer */
+tfoot th,
+tfoot td {
+    background-color: #4CAF50; /* Use the same or similar color for footer */
+    color: white;
+    padding: 10px;
+}
+
+/* Optional: add padding to table cells */
+table td {
+    padding: 8px;
+}
+
+/* Optional: alternating row colors for tbody */
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
