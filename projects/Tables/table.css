@@ -1,0 +1,91 @@
+
+
+/* Layout Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header, footer {
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 0.5em;
+    list-style-type: none;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em;
+    margin: 0 0.5em;
+}
+
+/* Sidebar and Main Content Styling */
+.content {
+    display: flex;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.sidebar {
+    flex: 1;
+    padding: 10px;
+    background-color: #f9f5f5;
+    margin-left: auto;
+}
+
+main {
+    flex: 3;
+    padding: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+caption {
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+thead {
+    background-color: #4CAF50;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+/* Footer Styling */
+footer {
+    width: 100%;
+    padding: 1;
+    background-color: #585b94;
+    color: white;
+    text-align: center;
+}
