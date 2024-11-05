@@ -1,8 +1,6 @@
-
-
 /* Layout Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: cursive;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,24 +9,24 @@ body {
 header, footer {
     width: 100%;
     text-align: center;
-    background-color: #333;
-    color: #fff;
-    padding: 1em 0;
+    background-color: #6cb3ed;
+    color: #210c0c;
+    padding: 16px;
 }
 
 nav ul {
     display: flex;
     justify-content: center;
-    background-color: #444;
-    padding: 0.5em;
+    background-color: #a96b6b;
+    padding: 8px;
     list-style-type: none;
 }
 
 nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 0.5em;
-    margin: 0 0.5em;
+    color: #0c0c0e;
+    text-decoration: double;
+    padding: 8px;
+    margin: 8px;
 }
 
 /* Sidebar and Main Content Styling */
@@ -41,13 +39,14 @@ nav a {
 .sidebar {
     flex: 1;
     padding: 10px;
-    background-color: #f9f5f5;
-    margin-left: auto;
+    background-color: #a19090;
+    order: 2; /* Ensures the sidebar appears after the main content */
 }
 
 main {
     flex: 3;
     padding: 20px;
+    order: 1; /* Ensures main content appears before the sidebar */
 }
 
 /* Table Styling */
@@ -63,29 +62,38 @@ caption {
 }
 
 thead {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #1d5a1f;
+    color: rgb(242, 240, 240);
 }
 
 th, td {
     padding: 10px;
     text-align: left;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #816f6f;
 }
 
-tbody tr:nth-child(odd) {
-    background-color: #f9f9f9;
+tbody tr:nth-child(1) {
+    background-color: #c0deee;
 }
 
-tbody tr:nth-child(even) {
-    background-color: #e0e0e0;
+tbody tr:nth-child(2) {
+    background-color: #e49657;
+}
+tbody tr:nth-child(3) {
+    background-color: #89cd23;
+}
+tbody tr:nth-child(4) {
+    background-color: #e9de17;
+}
+tbody tr:nth-child(5) {
+    background-color: #6a75ec;
 }
 
 /* Footer Styling */
 footer {
     width: 100%;
-    padding: 1;
+    padding: 1px;
     background-color: #585b94;
-    color: white;
+    color: rgb(242, 170, 170);
     text-align: center;
 }
