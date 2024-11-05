@@ -1,4 +1,4 @@
-/* Layout Styles */
+
 body {
     font-family: cursive;
     display: flex;
@@ -29,7 +29,6 @@ nav a {
     margin: 8px;
 }
 
-/* Sidebar and Main Content Styling */
 .content {
     display: flex;
     max-width: 1200px;
@@ -40,16 +39,15 @@ nav a {
     flex: 1;
     padding: 10px;
     background-color: #a19090;
-    order: 2; /* Ensures the sidebar appears after the main content */
+    order: 2;
 }
 
 main {
     flex: 3;
     padding: 20px;
-    order: 1; /* Ensures main content appears before the sidebar */
+    order: 1;
 }
 
-/* Table Styling */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -89,7 +87,6 @@ tbody tr:nth-child(5) {
     background-color: #6a75ec;
 }
 
-/* Footer Styling */
 footer {
     width: 100%;
     padding: 1px;
