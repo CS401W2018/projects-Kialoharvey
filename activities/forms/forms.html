@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTml Forms</title>
+</head>
+    <h1>Forms</h1>
+<body>
+    <header>
+        <h1>Web design</h1>
+    </header>
+    <main>
+        <form action="processing.html" method="post">
+            First Name: <input type="text" name="first" value="Peter" required><br>
+            Last Name: <input type="text" name="last" placeholder="Last Name"><br>
+            Password: <input type="password" name="pass"><br>
+            <input type="checkbox" name="remember"> Remember Me<br>
+            Grade:
+            <input type="radio" name="grade" value="Freshmen"> Freshmen<br>
+            <input type="radio" name="grade" value="Sophomore"> Sophomore<br>
+            <input type="radio" name="grade" value="Junior"> Junior<br>
+            <input type="radio" name="grade" value="Senior"> Senior<br>
+            <input type="submit" value="Submit"><br>
+            <select name="location">
+                <option value="blank">Select Location</option>
+                <option value="Hawaii">Hawaii</option>
+                <option value="Los Angelas">Los Angelas</option>
+                <option value="Chicago">Chicago</option>
+            </select>
+        </form>
+    </main>
+    
+    <h3>Engagement</h3>
+    <ol><li>The form tag has an "action" attribute. What does it do? The HTML action Attribute is used to specify where the form data is to be sent to the server after the submission of the form.</li>
+        <li>The form tag has a "method" attribute. What does it do? The method attribute in a form tag determines how form data is sent to the server upon submission, typically through either GET or POST. </li>
+        <li>What is the difference between a "POST" and a "GET"? The main difference between GET and POST is in how they send data to the server and how secure they are. GET puts the data in the URL, so it’s visible in the address bar, which makes it less secure but convenient for things like searches or filters where privacy isn’t important. POST sends data in a hidden way, making it better for sensitive information like passwords.</li>
+    </ol>
+    <footer>
+        &copy; Peter Kialo 2024
+    </footer>
+</main>
+</body>
+</html>
