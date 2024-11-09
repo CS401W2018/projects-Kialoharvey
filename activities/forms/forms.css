@@ -1,3 +1,27 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+.form-row, .check-row {
+    display: flex;
+    gap: 10px
+}
+.form-row label{
+    width: 150px;
+    text-align: right;
+}
+.spacer{
+    width: 150px;
+    text-align: right;
+}
+fieldset {
+    background-color: #c5d48f;
+    padding: 15px;
+    box-shadow: 5px 5px 3px rgb(154, 131, 131);
+    border: 1px solid #d23d3d;
+}
+legend {
+    background-color: #6892e1;
+    color: rgb(41, 33, 33);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
