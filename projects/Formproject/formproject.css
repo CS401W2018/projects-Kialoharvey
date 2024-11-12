@@ -2,8 +2,8 @@
 body {
     font-family: cursive;
     font-size: 16px;
-    color: #333333; /* Dark Gray */
-    background-color: #1acfd5; /* Light Gray Background */
+    color: #333333;
+    background-color: #1acfd5;
 }
 header {
     background-color: #e9c628;
@@ -37,11 +37,10 @@ form {
 fieldset {
     border: 1px solid #ddd;
     padding: 20px;
-    border-radius: 10px;
 }
 legend {
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 16px;
 }
 
 /* Label and Input Styling */
@@ -52,7 +51,7 @@ label {
     vertical-align: top;
 }
 input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="date"], textarea, select {
-    width: 65%;
+    width: 60%;
     padding: 10px;
     border: 1px solid #6bced1;
     background-color: #f2cece;
