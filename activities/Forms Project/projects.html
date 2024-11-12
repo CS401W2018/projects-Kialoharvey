@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Project</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Sample Form Page</h1>
+    </header>
+    
+    <!-- Main Content Section -->
+    <main>
+        <form action="submit_form.html" method="POST">
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <!-- Textbox for Name -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <!-- Password Field -->
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <!-- Email Field -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <!-- Phone Number Field -->
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone">
+
+                <!-- Date Field -->
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob">
+
+                <!-- Textarea for Additional Info -->
+                <label for="info">Additional Information:</label>
+                <textarea id="info" name="info" rows="4"></textarea>
+
+                <!-- Checkbox for Terms Agreement -->
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms">
+                    Agree to Terms and Conditions
+                </label>
+
+                <!-- Radio Buttons for Gender -->
+                <label>Gender:</label>
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+
+                <!-- Select Box for State -->
+                <label for="state">State:</label>
+                <select id="state" name="state">
+                    <option value="none" selected disabled>Select State</option>
+                    <option value="NY">New York</option>
+                    <option value="CA">California</option>
+                    <option value="TX">Texas</option>
+                </select>
+
+                <!-- Submit Button -->
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Sample Form Project</p>
+    </footer>
+</body>
+</html>
