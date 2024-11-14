@@ -1,19 +1,23 @@
-/* Basic Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-/* Header and Footer Styling */
-header, footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+body {
+    font-family: cursive;
+    font-size: 16px;
+    color: #333333;
+    background-color: #1acfd5;
 }
-header h1, footer p {
-    font-size: 1.5rem;
+header {
+    background-color: #e9c628;
+    color: rgb(27, 24, 24);
+    text-align: center;
+    padding: 15px;
+    font-size: 10px;
+}
+footer {
+    background-color: #169de5;
+    color: rgb(15, 13, 13);
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
 }
 
 /* Main Content and Form Styling */
@@ -27,17 +31,16 @@ form {
     max-width: 600px;
     padding: 20px;
     border: 1px solid #ccc;
-    border-radius: 10px;
-    background-color: #f9f9f9;
+    box-shadow: 5px 5px 7px rgb(101, 95, 95);
+    background-color: #e97575;
 }
 fieldset {
     border: 1px solid #ddd;
     padding: 20px;
-    border-radius: 10px;
 }
 legend {
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 16px;
 }
 
 /* Label and Input Styling */
@@ -48,19 +51,15 @@ label {
     vertical-align: top;
 }
 input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="date"], textarea, select {
-    width: 65%;
+    width: 60%;
     padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    background-color: #f4f4f4;
+    border: 1px solid #6bced1;
+    background-color: #f2cece;
 }
-textarea {
-    resize: vertical;
-}
+
 
 /* Styling for Checkboxes and Radio Buttons */
 input[type="checkbox"], input[type="radio"] {
-    transform: scale(1.2);
     margin-right: 5px;
 }
 label[for="terms"] {
@@ -77,9 +76,8 @@ button[type="submit"] {
     padding: 10px 20px;
     border: none;
     background-color: #28a745;
-    color: white;
-    font-size: 1em;
-    border-radius: 5px;
+    color: rgb(25, 21, 21);
+    font-size: 16px;
     cursor: pointer;
     margin-top: 20px;
 }
@@ -87,16 +85,18 @@ button[type="submit"]:hover {
     background-color: #218838;
 }
 
-/* Responsive Design for Mobile Devices */
+/* Design for Mobile Devices */
 @media (max-width: 600px) {
     label {
         width: 100%;
+        margin-bottom: 5px;
     }
     input, textarea, select, button {
         width: 100%;
+        margin-bottom: 10px; 
     }
     button[type="submit"] {
-        font-size: 1.2em;
+        font-size: 16px;
         padding: 15px;
     }
 }
