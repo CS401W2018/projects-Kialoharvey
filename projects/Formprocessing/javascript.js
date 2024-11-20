@@ -1,7 +1,7 @@
 document.getElementById('myForm').addEventListener('submit', function (event) {
-    event.preventDefault(); // Prevent default submission
+    event.preventDefault();
 
-    // Collect form data
+    
     const formData = {
         firstName: document.getElementById('first-name').value,
         lastName: document.getElementById('last-name').value,
@@ -15,7 +15,7 @@ document.getElementById('myForm').addEventListener('submit', function (event) {
         terms: document.getElementById('terms').checked,
     };
 
-    // Validate form fields
+    
     const errors = [];
     if (!formData.firstName) errors.push('First Name is required.');
     if (!formData.lastName) errors.push('Last Name is required.');
@@ -27,17 +27,17 @@ document.getElementById('myForm').addEventListener('submit', function (event) {
         return;
     }
 
-    console.log(formData); // Log form data to console
+    console.log(formData);
 
-    // Send AJAX request
+    
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', 'formresponse.json', true); // Use GET for GitHub Pages compatibility
+    xhr.open('GET', 'formresponse.json', true); 
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.onreadystatechange = function () {
         if (xhr.readyState === 4 && xhr.status === 200) {
             const response = JSON.parse(xhr.responseText);
             document.getElementById('formresponse').innerHTML = `<p>${response.message}</p>`;
-            document.getElementById('myForm').reset(); // Reset form
+            document.getElementById('myForm').reset(); 
         }
     };
     xhr.send(JSON.stringify(formData));
