@@ -1,0 +1,71 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f4f4f4;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 1rem;
+}
+
+nav a {
+    color: rgb(91, 58, 58);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section */
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 2rem;
+    background-color: #1d0d0d;
+}
+
+main div {
+    border: 2px solid #642727;
+    padding: 1rem;
+    background-color: #bb9825;
+    border-radius: 5px;
+}
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    border-top: 2px solid #ddd;
+}
+
+footer h3 {
+    margin: 0.5rem 0 0;
+}
+
+/* ID and Class Specific Styles */
+#section-one {
+    background-color: #479ab6;
+}
+
+.content-section {
+    background-color: #855018;
+}
